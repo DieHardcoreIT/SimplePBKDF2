@@ -8,6 +8,7 @@ This library allows the easy use of PBKDF2.
 
 Hash password example:
 
+```
   //generate a random password
   var password = "password";
   //or
@@ -18,3 +19,4 @@ Hash password example:
 
   //save this hash to the database
   string hashedpassword = Pbkdf2.Hash(password, salt);
+```
