@@ -8,7 +8,7 @@ This library allows the easy use of PBKDF2.
 
 Hash password example:
 
-  //
+  //generate a random password
   var password = "password";
   //or
   var password = Pbkdf2.GeneratePassword();
