@@ -1,5 +1,8 @@
 # SimplePBKDF2
 
+## WARNING
+### PBKDF2 is considered insecure. Consider migrating to Argon2 for improved password security.
+
 ## Description
 
 This library allows the easy use of PBKDF2.
